@@ -11,8 +11,8 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="Maven: io.trino:trino-plugin-toolkit:375" level="project" />
-    <orderEntry type="library" name="Maven: io.trino:trino-matching:375" level="project" />
+    <orderEntry type="module" module-name="trino-plugin-toolkit" />
+    <orderEntry type="module" module-name="trino-matching" />
     <orderEntry type="library" name="Maven: io.airlift:log:214" level="project" />
     <orderEntry type="library" name="Maven: io.airlift:parameternames:1.4" level="project" />
     <orderEntry type="library" name="Maven: io.airlift:stats:214" level="project" />
@@ -49,20 +49,20 @@
     <orderEntry type="library" name="Maven: aopalliance:aopalliance:1.0" level="project" />
     <orderEntry type="library" name="Maven: javax.inject:javax.inject:1" level="project" />
     <orderEntry type="library" name="Maven: javax.validation:validation-api:2.0.1.Final" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Maven: io.trino:trino-spi:375" level="project" />
+    <orderEntry type="module" module-name="trino-spi" scope="PROVIDED" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: io.airlift:slice:0.41" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.13.1" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.openjdk.jol:jol-core:0.2" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: io.trino:trino-main:375" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: io.trino:trino-array:375" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: io.trino:trino-client:375" level="project" />
+    <orderEntry type="module" module-name="trino-main" scope="TEST" />
+    <orderEntry type="module" module-name="trino-array" scope="TEST" />
+    <orderEntry type="module" module-name="trino-client" scope="TEST" />
     <orderEntry type="library" scope="TEST" name="Maven: net.jodah:failsafe:2.4.0" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: io.trino:trino-collect:375" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: io.trino:trino-geospatial-toolkit:375" level="project" />
+    <orderEntry type="module" module-name="trino-collect" scope="TEST" />
+    <orderEntry type="module" module-name="trino-geospatial-toolkit" scope="TEST" />
     <orderEntry type="library" scope="TEST" name="Maven: org.locationtech.jts.io:jts-io-common:1.16.1" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: com.googlecode.json-simple:json-simple:1.1.1" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: io.trino:trino-memory-context:375" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: io.trino:trino-parser:375" level="project" />
+    <orderEntry type="module" module-name="trino-memory-context" scope="TEST" />
+    <orderEntry type="module" module-name="trino-parser" scope="TEST" />
     <orderEntry type="library" scope="TEST" name="Maven: org.antlr:antlr4-runtime:4.9.3" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: io.airlift:aircompressor:0.21" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: io.airlift:bytecode:1.4" level="project" />
