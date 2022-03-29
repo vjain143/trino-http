@@ -1,0 +1,11 @@
+/Users/vivekjain/Data/trino-workspace/trino-http/src/test/java/io/trino/plugin/http/TestClient.java
+/Users/vivekjain/Data/trino-workspace/trino-http/src/test/java/io/trino/plugin/http/MetadataUtil.java
+/Users/vivekjain/Data/trino-workspace/trino-http/src/test/java/io/trino/plugin/http/TestConfig.java
+/Users/vivekjain/Data/trino-workspace/trino-http/src/test/java/io/trino/plugin/http/TestSplit.java
+/Users/vivekjain/Data/trino-workspace/trino-http/src/test/java/io/trino/plugin/http/TestRecordSet.java
+/Users/vivekjain/Data/trino-workspace/trino-http/src/test/java/io/trino/plugin/http/HttpServer.java
+/Users/vivekjain/Data/trino-workspace/trino-http/src/test/java/io/trino/plugin/http/TestColumnHandle.java
+/Users/vivekjain/Data/trino-workspace/trino-http/src/test/java/io/trino/plugin/http/TestRecordSetProvider.java
+/Users/vivekjain/Data/trino-workspace/trino-http/src/test/java/io/trino/plugin/http/TestTableHandle.java
+/Users/vivekjain/Data/trino-workspace/trino-http/src/test/java/io/trino/plugin/http/TestMetadata.java
+/Users/vivekjain/Data/trino-workspace/trino-http/src/test/java/io/trino/plugin/http/TestTable.java

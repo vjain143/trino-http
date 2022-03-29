@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="9.2">
+<file name="/Users/vivekjain/Data/trino-workspace/trino-http/src/main/java/io/trino/plugin/http/TableHandle.java">
+</file>
+<file name="/Users/vivekjain/Data/trino-workspace/trino-http/src/main/java/io/trino/plugin/http/Client.java">
+</file>
+<file name="/Users/vivekjain/Data/trino-workspace/trino-http/src/main/java/io/trino/plugin/http/Split.java">
+</file>
+<file name="/Users/vivekjain/Data/trino-workspace/trino-http/src/main/java/io/trino/plugin/http/Module.java">
+</file>
+<file name="/Users/vivekjain/Data/trino-workspace/trino-http/src/main/java/io/trino/plugin/http/RecordSet.java">
+</file>
+<file name="/Users/vivekjain/Data/trino-workspace/trino-http/src/main/java/io/trino/plugin/http/RecordSetProvider.java">
+</file>
+<file name="/Users/vivekjain/Data/trino-workspace/trino-http/src/main/java/io/trino/plugin/http/RecordCursor.java">
+</file>
+<file name="/Users/vivekjain/Data/trino-workspace/trino-http/src/main/java/io/trino/plugin/http/Table.java">
+</file>
+<file name="/Users/vivekjain/Data/trino-workspace/trino-http/src/main/java/io/trino/plugin/http/Plugin.java">
+</file>
+<file name="/Users/vivekjain/Data/trino-workspace/trino-http/src/main/java/io/trino/plugin/http/Column.java">
+</file>
+<file name="/Users/vivekjain/Data/trino-workspace/trino-http/src/main/java/io/trino/plugin/http/SplitManager.java">
+</file>
+<file name="/Users/vivekjain/Data/trino-workspace/trino-http/src/main/java/io/trino/plugin/http/ColumnHandle.java">
+</file>
+<file name="/Users/vivekjain/Data/trino-workspace/trino-http/src/main/java/io/trino/plugin/http/Metadata.java">
+</file>
+<file name="/Users/vivekjain/Data/trino-workspace/trino-http/src/main/java/io/trino/plugin/http/Connector.java">
+</file>
+<file name="/Users/vivekjain/Data/trino-workspace/trino-http/src/main/java/io/trino/plugin/http/Config.java">
+</file>
+<file name="/Users/vivekjain/Data/trino-workspace/trino-http/src/main/java/io/trino/plugin/http/TransactionHandle.java">
+</file>
+<file name="/Users/vivekjain/Data/trino-workspace/trino-http/src/main/java/io/trino/plugin/http/ConnectorFactory.java">
+</file>
+<file name="/Users/vivekjain/Data/trino-workspace/trino-http/src/test/java/io/trino/plugin/http/TestTable.java">
+</file>
+<file name="/Users/vivekjain/Data/trino-workspace/trino-http/src/test/java/io/trino/plugin/http/TestClient.java">
+</file>
+<file name="/Users/vivekjain/Data/trino-workspace/trino-http/src/test/java/io/trino/plugin/http/MetadataUtil.java">
+</file>
+<file name="/Users/vivekjain/Data/trino-workspace/trino-http/src/test/java/io/trino/plugin/http/TestSplit.java">
+</file>
+<file name="/Users/vivekjain/Data/trino-workspace/trino-http/src/test/java/io/trino/plugin/http/TestRecordSetProvider.java">
+</file>
+<file name="/Users/vivekjain/Data/trino-workspace/trino-http/src/test/java/io/trino/plugin/http/TestTableHandle.java">
+</file>
+<file name="/Users/vivekjain/Data/trino-workspace/trino-http/src/test/java/io/trino/plugin/http/HttpServer.java">
+</file>
+<file name="/Users/vivekjain/Data/trino-workspace/trino-http/src/test/java/io/trino/plugin/http/TestColumnHandle.java">
+</file>
+<file name="/Users/vivekjain/Data/trino-workspace/trino-http/src/test/java/io/trino/plugin/http/TestMetadata.java">
+</file>
+<file name="/Users/vivekjain/Data/trino-workspace/trino-http/src/test/java/io/trino/plugin/http/TestConfig.java">
+</file>
+<file name="/Users/vivekjain/Data/trino-workspace/trino-http/src/test/java/io/trino/plugin/http/TestRecordSet.java">
+</file>
+</checkstyle>

@@ -1,0 +1,17 @@
+/Users/vivekjain/Data/trino-workspace/trino-http/src/main/java/io/trino/plugin/http/Client.java
+/Users/vivekjain/Data/trino-workspace/trino-http/src/main/java/io/trino/plugin/http/Plugin.java
+/Users/vivekjain/Data/trino-workspace/trino-http/src/main/java/io/trino/plugin/http/Column.java
+/Users/vivekjain/Data/trino-workspace/trino-http/src/main/java/io/trino/plugin/http/Config.java
+/Users/vivekjain/Data/trino-workspace/trino-http/src/main/java/io/trino/plugin/http/SplitManager.java
+/Users/vivekjain/Data/trino-workspace/trino-http/src/main/java/io/trino/plugin/http/TableHandle.java
+/Users/vivekjain/Data/trino-workspace/trino-http/src/main/java/io/trino/plugin/http/Split.java
+/Users/vivekjain/Data/trino-workspace/trino-http/src/main/java/io/trino/plugin/http/RecordSetProvider.java
+/Users/vivekjain/Data/trino-workspace/trino-http/src/main/java/io/trino/plugin/http/Module.java
+/Users/vivekjain/Data/trino-workspace/trino-http/src/main/java/io/trino/plugin/http/ColumnHandle.java
+/Users/vivekjain/Data/trino-workspace/trino-http/src/main/java/io/trino/plugin/http/Table.java
+/Users/vivekjain/Data/trino-workspace/trino-http/src/main/java/io/trino/plugin/http/Metadata.java
+/Users/vivekjain/Data/trino-workspace/trino-http/src/main/java/io/trino/plugin/http/RecordCursor.java
+/Users/vivekjain/Data/trino-workspace/trino-http/src/main/java/io/trino/plugin/http/ConnectorFactory.java
+/Users/vivekjain/Data/trino-workspace/trino-http/src/main/java/io/trino/plugin/http/RecordSet.java
+/Users/vivekjain/Data/trino-workspace/trino-http/src/main/java/io/trino/plugin/http/TransactionHandle.java
+/Users/vivekjain/Data/trino-workspace/trino-http/src/main/java/io/trino/plugin/http/Connector.java

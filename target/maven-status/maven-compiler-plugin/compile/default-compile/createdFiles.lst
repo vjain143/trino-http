@@ -1,0 +1,17 @@
+io/trino/plugin/http/Split.class
+io/trino/plugin/http/TransactionHandle.class
+io/trino/plugin/http/RecordCursor.class
+io/trino/plugin/http/Module.class
+io/trino/plugin/http/Column.class
+io/trino/plugin/http/Metadata.class
+io/trino/plugin/http/ColumnHandle.class
+io/trino/plugin/http/Plugin.class
+io/trino/plugin/http/RecordSet.class
+io/trino/plugin/http/TableHandle.class
+io/trino/plugin/http/SplitManager.class
+io/trino/plugin/http/RecordSetProvider.class
+io/trino/plugin/http/Connector.class
+io/trino/plugin/http/Table.class
+io/trino/plugin/http/ConnectorFactory.class
+io/trino/plugin/http/Config.class
+io/trino/plugin/http/Client.class
