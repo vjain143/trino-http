@@ -21,7 +21,7 @@ import io.trino.spi.connector.SchemaTableName;
 import java.util.Objects;
 
 import static java.util.Objects.requireNonNull;
-
+//TODO - CHANGED
 public final class TableHandle
         implements ConnectorTableHandle
 {

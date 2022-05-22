@@ -35,12 +35,12 @@ import static java.util.Objects.requireNonNull;
 public class SplitManager
         implements ConnectorSplitManager
 {
-    private final Client exampleClient;
+    private final Client client;
 
     @Inject
-    public SplitManager(Client exampleClient)
+    public SplitManager(Client client)
     {
-        this.exampleClient = requireNonNull(exampleClient, "exampleClient is null");
+        this.client = requireNonNull(client, "client is null");
     }
 
     @Override
@@ -52,7 +52,7 @@ public class SplitManager
             DynamicFilter dynamicFilter)
     {
         TableHandle tableHandle = (TableHandle) connectorTableHandle;
-        Table table = exampleClient.getTable(tableHandle.getSchemaName(), tableHandle.getTableName());
+        Table table = client.getTable(tableHandle.getSchemaName(), tableHandle.getTableName());
 
         // this can happen if table is removed during a query
         if (table == null) {

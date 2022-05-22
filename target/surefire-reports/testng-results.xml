@@ -2,74 +2,66 @@
 <testng-results ignored="0" total="23" passed="23" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-03-29T12:27:52Z" name="Surefire suite" finished-at="2022-03-29T12:27:53Z" duration-ms="691">
+  <suite started-at="2022-03-29T15:44:14Z" name="Surefire suite" finished-at="2022-03-29T15:44:15Z" duration-ms="682">
     <groups>
     </groups>
-    <test started-at="2022-03-29T12:27:52Z" name="Surefire test" finished-at="2022-03-29T12:27:53Z" duration-ms="691">
+    <test started-at="2022-03-29T15:44:14Z" name="Surefire test" finished-at="2022-03-29T15:44:15Z" duration-ms="682">
       <class name="io.trino.plugin.http.TestClient">
-        <test-method signature="testMetadata()[pri:0, instance:io.trino.plugin.http.TestClient@49e53c76]" started-at="2022-03-29T06:27:52Z" name="testMetadata" finished-at="2022-03-29T06:27:52Z" duration-ms="188" status="PASS">
+        <test-method signature="testMetadata()[pri:0, instance:io.trino.plugin.http.TestClient@2a65fe7c]" started-at="2022-03-29T09:44:14Z" name="testMetadata" finished-at="2022-03-29T09:44:14Z" duration-ms="184" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testMetadata -->
       </class> <!-- io.trino.plugin.http.TestClient -->
       <class name="io.trino.plugin.http.TestTable">
-        <test-method signature="testColumnMetadata()[pri:0, instance:io.trino.plugin.http.TestTable@3c19aaa5]" started-at="2022-03-29T06:27:53Z" name="testColumnMetadata" finished-at="2022-03-29T06:27:53Z" duration-ms="1" status="PASS">
+        <test-method signature="testColumnMetadata()[pri:0, instance:io.trino.plugin.http.TestTable@4562e04d]" started-at="2022-03-29T09:44:15Z" name="testColumnMetadata" finished-at="2022-03-29T09:44:15Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testColumnMetadata -->
-        <test-method signature="testRoundTrip()[pri:0, instance:io.trino.plugin.http.TestTable@3c19aaa5]" started-at="2022-03-29T06:27:53Z" name="testRoundTrip" finished-at="2022-03-29T06:27:53Z" duration-ms="8" status="PASS">
+        <test-method signature="testRoundTrip()[pri:0, instance:io.trino.plugin.http.TestTable@4562e04d]" started-at="2022-03-29T09:44:15Z" name="testRoundTrip" finished-at="2022-03-29T09:44:15Z" duration-ms="8" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testRoundTrip -->
       </class> <!-- io.trino.plugin.http.TestTable -->
       <class name="io.trino.plugin.http.TestTableHandle">
-        <test-method signature="testEquivalence()[pri:0, instance:io.trino.plugin.http.TestTableHandle@351d00c0]" started-at="2022-03-29T06:27:53Z" name="testEquivalence" finished-at="2022-03-29T06:27:53Z" duration-ms="0" status="PASS">
+        <test-method signature="testEquivalence()[pri:0, instance:io.trino.plugin.http.TestTableHandle@4c371370]" started-at="2022-03-29T09:44:15Z" name="testEquivalence" finished-at="2022-03-29T09:44:15Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testEquivalence -->
-        <test-method signature="testJsonRoundTrip()[pri:0, instance:io.trino.plugin.http.TestTableHandle@351d00c0]" started-at="2022-03-29T06:27:53Z" name="testJsonRoundTrip" finished-at="2022-03-29T06:27:53Z" duration-ms="2" status="PASS">
+        <test-method signature="testJsonRoundTrip()[pri:0, instance:io.trino.plugin.http.TestTableHandle@4c371370]" started-at="2022-03-29T09:44:15Z" name="testJsonRoundTrip" finished-at="2022-03-29T09:44:15Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testJsonRoundTrip -->
       </class> <!-- io.trino.plugin.http.TestTableHandle -->
       <class name="io.trino.plugin.http.TestMetadata">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:io.trino.plugin.http.TestMetadata@3349e9bb]" started-at="2022-03-29T06:27:52Z" name="setUp" finished-at="2022-03-29T06:27:52Z" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:io.trino.plugin.http.TestMetadata@3023df74]" started-at="2022-03-29T09:44:15Z" name="setUp" finished-at="2022-03-29T09:44:15Z" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="getColumnMetadata()[pri:0, instance:io.trino.plugin.http.TestMetadata@3349e9bb]" started-at="2022-03-29T06:27:52Z" name="getColumnMetadata" finished-at="2022-03-29T06:27:52Z" duration-ms="44" status="PASS">
+        <test-method signature="getColumnMetadata()[pri:0, instance:io.trino.plugin.http.TestMetadata@3023df74]" started-at="2022-03-29T09:44:15Z" name="getColumnMetadata" finished-at="2022-03-29T09:44:15Z" duration-ms="45" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getColumnMetadata -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:io.trino.plugin.http.TestMetadata@3349e9bb]" started-at="2022-03-29T06:27:52Z" name="setUp" finished-at="2022-03-29T06:27:52Z" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="getTableMetadata()[pri:0, instance:io.trino.plugin.http.TestMetadata@3349e9bb]" started-at="2022-03-29T06:27:52Z" name="getTableMetadata" finished-at="2022-03-29T06:27:52Z" duration-ms="2" status="PASS">
+        <test-method signature="getTableMetadata()[pri:0, instance:io.trino.plugin.http.TestMetadata@3023df74]" started-at="2022-03-29T09:44:15Z" name="getTableMetadata" finished-at="2022-03-29T09:44:15Z" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getTableMetadata -->
-        <test-method signature="testCreateTable()[pri:0, instance:io.trino.plugin.http.TestMetadata@3349e9bb]" started-at="2022-03-29T06:27:52Z" name="testCreateTable" finished-at="2022-03-29T06:27:52Z" duration-ms="25" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:io.trino.plugin.http.TestMetadata@3023df74]" started-at="2022-03-29T09:44:15Z" name="setUp" finished-at="2022-03-29T09:44:15Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:io.trino.plugin.http.TestMetadata@3023df74]" started-at="2022-03-29T09:44:15Z" name="setUp" finished-at="2022-03-29T09:44:15Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCreateTable()[pri:0, instance:io.trino.plugin.http.TestMetadata@3023df74]" started-at="2022-03-29T09:44:15Z" name="testCreateTable" finished-at="2022-03-29T09:44:15Z" duration-ms="26" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCreateTable -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:io.trino.plugin.http.TestMetadata@3349e9bb]" started-at="2022-03-29T06:27:52Z" name="setUp" finished-at="2022-03-29T06:27:52Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:io.trino.plugin.http.TestMetadata@3023df74]" started-at="2022-03-29T09:44:15Z" name="setUp" finished-at="2022-03-29T09:44:15Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testGetColumnHandles()[pri:0, instance:io.trino.plugin.http.TestMetadata@3349e9bb]" started-at="2022-03-29T06:27:52Z" name="testGetColumnHandles" finished-at="2022-03-29T06:27:52Z" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testGetColumnHandles -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:io.trino.plugin.http.TestMetadata@3349e9bb]" started-at="2022-03-29T06:27:52Z" name="setUp" finished-at="2022-03-29T06:27:52Z" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:io.trino.plugin.http.TestMetadata@3349e9bb]" started-at="2022-03-29T06:27:52Z" name="setUp" finished-at="2022-03-29T06:27:52Z" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="testDropTableTable()[pri:0, instance:io.trino.plugin.http.TestMetadata@3349e9bb]" started-at="2022-03-29T06:27:52Z" name="testDropTableTable" finished-at="2022-03-29T06:27:52Z" duration-ms="0" status="PASS">
+        <test-method signature="testDropTableTable()[pri:0, instance:io.trino.plugin.http.TestMetadata@3023df74]" started-at="2022-03-29T09:44:15Z" name="testDropTableTable" finished-at="2022-03-29T09:44:15Z" duration-ms="0" status="PASS">
           <exception class="io.trino.spi.TrinoException">
             <message>
               <![CDATA[This connector does not support dropping tables]]>
@@ -95,93 +87,101 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDropTableTable -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:io.trino.plugin.http.TestMetadata@3349e9bb]" started-at="2022-03-29T06:27:52Z" name="setUp" finished-at="2022-03-29T06:27:52Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:io.trino.plugin.http.TestMetadata@3023df74]" started-at="2022-03-29T09:44:15Z" name="setUp" finished-at="2022-03-29T09:44:15Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testGetTableHandle()[pri:0, instance:io.trino.plugin.http.TestMetadata@3349e9bb]" started-at="2022-03-29T06:27:52Z" name="testGetTableHandle" finished-at="2022-03-29T06:27:52Z" duration-ms="1" status="PASS">
+        <test-method signature="testGetColumnHandles()[pri:0, instance:io.trino.plugin.http.TestMetadata@3023df74]" started-at="2022-03-29T09:44:15Z" name="testGetColumnHandles" finished-at="2022-03-29T09:44:15Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetColumnHandles -->
+        <test-method signature="testGetTableHandle()[pri:0, instance:io.trino.plugin.http.TestMetadata@3023df74]" started-at="2022-03-29T09:44:15Z" name="testGetTableHandle" finished-at="2022-03-29T09:44:15Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetTableHandle -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:io.trino.plugin.http.TestMetadata@3349e9bb]" started-at="2022-03-29T06:27:52Z" name="setUp" finished-at="2022-03-29T06:27:52Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:io.trino.plugin.http.TestMetadata@3023df74]" started-at="2022-03-29T09:44:15Z" name="setUp" finished-at="2022-03-29T09:44:15Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testListSchemaNames()[pri:0, instance:io.trino.plugin.http.TestMetadata@3349e9bb]" started-at="2022-03-29T06:27:52Z" name="testListSchemaNames" finished-at="2022-03-29T06:27:52Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:io.trino.plugin.http.TestMetadata@3023df74]" started-at="2022-03-29T09:44:15Z" name="setUp" finished-at="2022-03-29T09:44:15Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testListSchemaNames()[pri:0, instance:io.trino.plugin.http.TestMetadata@3023df74]" started-at="2022-03-29T09:44:15Z" name="testListSchemaNames" finished-at="2022-03-29T09:44:15Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testListSchemaNames -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:io.trino.plugin.http.TestMetadata@3349e9bb]" started-at="2022-03-29T06:27:52Z" name="setUp" finished-at="2022-03-29T06:27:52Z" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="testListTables()[pri:0, instance:io.trino.plugin.http.TestMetadata@3349e9bb]" started-at="2022-03-29T06:27:52Z" name="testListTables" finished-at="2022-03-29T06:27:52Z" duration-ms="1" status="PASS">
+        <test-method signature="testListTables()[pri:0, instance:io.trino.plugin.http.TestMetadata@3023df74]" started-at="2022-03-29T09:44:15Z" name="testListTables" finished-at="2022-03-29T09:44:15Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testListTables -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:io.trino.plugin.http.TestMetadata@3023df74]" started-at="2022-03-29T09:44:15Z" name="setUp" finished-at="2022-03-29T09:44:15Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
       </class> <!-- io.trino.plugin.http.TestMetadata -->
+      <class name="io.trino.plugin.http.TestRecordSet">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:io.trino.plugin.http.TestRecordSet@313ac989]" started-at="2022-03-29T09:44:15Z" name="setUp" finished-at="2022-03-29T09:44:15Z" duration-ms="264" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCursorMixedOrder()[pri:0, instance:io.trino.plugin.http.TestRecordSet@313ac989]" started-at="2022-03-29T09:44:15Z" name="testCursorMixedOrder" finished-at="2022-03-29T09:44:15Z" duration-ms="51" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCursorMixedOrder -->
+        <test-method signature="testCursorSimple()[pri:0, instance:io.trino.plugin.http.TestRecordSet@313ac989]" started-at="2022-03-29T09:44:15Z" name="testCursorSimple" finished-at="2022-03-29T09:44:15Z" duration-ms="51" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCursorSimple -->
+        <test-method signature="testGetColumnTypes()[pri:0, instance:io.trino.plugin.http.TestRecordSet@313ac989]" started-at="2022-03-29T09:44:15Z" name="testGetColumnTypes" finished-at="2022-03-29T09:44:15Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetColumnTypes -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:io.trino.plugin.http.TestRecordSet@313ac989]" started-at="2022-03-29T09:44:15Z" name="tearDown" finished-at="2022-03-29T09:44:15Z" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- io.trino.plugin.http.TestRecordSet -->
       <class name="io.trino.plugin.http.TestConfig">
-        <test-method signature="testDefaults()[pri:0, instance:io.trino.plugin.http.TestConfig@38d8f54a]" started-at="2022-03-29T06:27:52Z" name="testDefaults" finished-at="2022-03-29T06:27:52Z" duration-ms="105" status="PASS">
+        <test-method signature="testDefaults()[pri:0, instance:io.trino.plugin.http.TestConfig@4135c3b]" started-at="2022-03-29T09:44:14Z" name="testDefaults" finished-at="2022-03-29T09:44:15Z" duration-ms="105" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDefaults -->
-        <test-method signature="testExplicitPropertyMappings()[pri:0, instance:io.trino.plugin.http.TestConfig@38d8f54a]" started-at="2022-03-29T06:27:52Z" name="testExplicitPropertyMappings" finished-at="2022-03-29T06:27:52Z" duration-ms="138" status="PASS">
+        <test-method signature="testExplicitPropertyMappings()[pri:0, instance:io.trino.plugin.http.TestConfig@4135c3b]" started-at="2022-03-29T09:44:14Z" name="testExplicitPropertyMappings" finished-at="2022-03-29T09:44:15Z" duration-ms="137" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testExplicitPropertyMappings -->
       </class> <!-- io.trino.plugin.http.TestConfig -->
-      <class name="io.trino.plugin.http.TestRecordSet">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:io.trino.plugin.http.TestRecordSet@74f0ea28]" started-at="2022-03-29T06:27:52Z" name="setUp" finished-at="2022-03-29T06:27:52Z" duration-ms="270" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="testCursorMixedOrder()[pri:0, instance:io.trino.plugin.http.TestRecordSet@74f0ea28]" started-at="2022-03-29T06:27:52Z" name="testCursorMixedOrder" finished-at="2022-03-29T06:27:53Z" duration-ms="51" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCursorMixedOrder -->
-        <test-method signature="testCursorSimple()[pri:0, instance:io.trino.plugin.http.TestRecordSet@74f0ea28]" started-at="2022-03-29T06:27:52Z" name="testCursorSimple" finished-at="2022-03-29T06:27:53Z" duration-ms="51" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCursorSimple -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:io.trino.plugin.http.TestRecordSet@74f0ea28]" started-at="2022-03-29T06:27:53Z" name="tearDown" finished-at="2022-03-29T06:27:53Z" duration-ms="9" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method signature="testGetColumnTypes()[pri:0, instance:io.trino.plugin.http.TestRecordSet@74f0ea28]" started-at="2022-03-29T06:27:53Z" name="testGetColumnTypes" finished-at="2022-03-29T06:27:53Z" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testGetColumnTypes -->
-      </class> <!-- io.trino.plugin.http.TestRecordSet -->
       <class name="io.trino.plugin.http.TestRecordSetProvider">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:io.trino.plugin.http.TestRecordSetProvider@409bf450]" started-at="2022-03-29T06:27:53Z" name="setUp" finished-at="2022-03-29T06:27:53Z" duration-ms="29" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:io.trino.plugin.http.TestRecordSetProvider@799f10e1]" started-at="2022-03-29T09:44:15Z" name="setUp" finished-at="2022-03-29T09:44:15Z" duration-ms="32" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testGetRecordSet()[pri:0, instance:io.trino.plugin.http.TestRecordSetProvider@409bf450]" started-at="2022-03-29T06:27:53Z" name="testGetRecordSet" finished-at="2022-03-29T06:27:53Z" duration-ms="4" status="PASS">
+        <test-method signature="testGetRecordSet()[pri:0, instance:io.trino.plugin.http.TestRecordSetProvider@799f10e1]" started-at="2022-03-29T09:44:15Z" name="testGetRecordSet" finished-at="2022-03-29T09:44:15Z" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetRecordSet -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:io.trino.plugin.http.TestRecordSetProvider@409bf450]" started-at="2022-03-29T06:27:53Z" name="tearDown" finished-at="2022-03-29T06:27:53Z" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:io.trino.plugin.http.TestRecordSetProvider@799f10e1]" started-at="2022-03-29T09:44:15Z" name="tearDown" finished-at="2022-03-29T09:44:15Z" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- io.trino.plugin.http.TestRecordSetProvider -->
       <class name="io.trino.plugin.http.TestColumnHandle">
-        <test-method signature="testEquivalence()[pri:0, instance:io.trino.plugin.http.TestColumnHandle@f6efaab]" started-at="2022-03-29T06:27:52Z" name="testEquivalence" finished-at="2022-03-29T06:27:52Z" duration-ms="5" status="PASS">
+        <test-method signature="testEquivalence()[pri:0, instance:io.trino.plugin.http.TestColumnHandle@18078bef]" started-at="2022-03-29T09:44:14Z" name="testEquivalence" finished-at="2022-03-29T09:44:14Z" duration-ms="6" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testEquivalence -->
-        <test-method signature="testJsonRoundTrip()[pri:0, instance:io.trino.plugin.http.TestColumnHandle@f6efaab]" started-at="2022-03-29T06:27:52Z" name="testJsonRoundTrip" finished-at="2022-03-29T06:27:52Z" duration-ms="179" status="PASS">
+        <test-method signature="testJsonRoundTrip()[pri:0, instance:io.trino.plugin.http.TestColumnHandle@18078bef]" started-at="2022-03-29T09:44:14Z" name="testJsonRoundTrip" finished-at="2022-03-29T09:44:14Z" duration-ms="174" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testJsonRoundTrip -->
       </class> <!-- io.trino.plugin.http.TestColumnHandle -->
       <class name="io.trino.plugin.http.TestSplit">
-        <test-method signature="testAddresses()[pri:0, instance:io.trino.plugin.http.TestSplit@2a3b5b47]" started-at="2022-03-29T06:27:53Z" name="testAddresses" finished-at="2022-03-29T06:27:53Z" duration-ms="1" status="PASS">
+        <test-method signature="testAddresses()[pri:0, instance:io.trino.plugin.http.TestSplit@145f66e3]" started-at="2022-03-29T09:44:15Z" name="testAddresses" finished-at="2022-03-29T09:44:15Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAddresses -->
-        <test-method signature="testJsonRoundTrip()[pri:0, instance:io.trino.plugin.http.TestSplit@2a3b5b47]" started-at="2022-03-29T06:27:53Z" name="testJsonRoundTrip" finished-at="2022-03-29T06:27:53Z" duration-ms="1" status="PASS">
+        <test-method signature="testJsonRoundTrip()[pri:0, instance:io.trino.plugin.http.TestSplit@145f66e3]" started-at="2022-03-29T09:44:15Z" name="testJsonRoundTrip" finished-at="2022-03-29T09:44:15Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testJsonRoundTrip -->

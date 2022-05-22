@@ -59,7 +59,7 @@ public class RecordCursor
 
         try (CountingInputStream input = new CountingInputStream(byteSource.openStream())) {
             lines = byteSource.asCharSource(UTF_8).readLines().iterator();
-            totalBytes = input.getCount();
+            totalBytes = input.getCount();//TODO - CHANGE HERE
         }
         catch (IOException e) {
             throw new UncheckedIOException(e);

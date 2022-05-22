@@ -187,12 +187,12 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="io.trino.plugin.http.TestSplit" class="method navigator-link" hash-for-method="testJsonRoundTrip">testJsonRoundTrip</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Surefire_suite" title="io.trino.plugin.http.TestTableHandle" class="method navigator-link" hash-for-method="testJsonRoundTrip">testJsonRoundTrip</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Surefire_suite" title="io.trino.plugin.http.TestTableHandle" class="method navigator-link" hash-for-method="testJsonRoundTrip">testJsonRoundTrip</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Surefire_suite" title="io.trino.plugin.http.TestSplit" class="method navigator-link" hash-for-method="testJsonRoundTrip">testJsonRoundTrip</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -252,6 +252,28 @@
           <div class="suite-Surefire_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
+              <span class="class-name">io.trino.plugin.http.TestConfig</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDefaults">
+                  </a> <!-- testDefaults -->
+                  <span class="method-name">testDefaults</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testExplicitPropertyMappings">
+                  </a> <!-- testExplicitPropertyMappings -->
+                  <span class="method-name">testExplicitPropertyMappings</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
               <span class="class-name">io.trino.plugin.http.TestRecordSet</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -274,28 +296,6 @@
                   <a name="testGetColumnTypes">
                   </a> <!-- testGetColumnTypes -->
                   <span class="method-name">testGetColumnTypes</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Surefire_suite-class-passed -->
-          <div class="suite-Surefire_suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">io.trino.plugin.http.TestConfig</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="testDefaults">
-                  </a> <!-- testDefaults -->
-                  <span class="method-name">testDefaults</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testExplicitPropertyMappings">
-                  </a> <!-- testExplicitPropertyMappings -->
-                  <span class="method-name">testExplicitPropertyMappings</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -471,15 +471,15 @@
 &lt;suite thread-count=&quot;2&quot; parallel=&quot;methods&quot; name=&quot;Surefire suite&quot; verbose=&quot;0&quot;&gt;
   &lt;test name=&quot;Surefire test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;io.trino.plugin.http.TestRecordSet&quot;/&gt;
       &lt;class name=&quot;io.trino.plugin.http.TestColumnHandle&quot;/&gt;
-      &lt;class name=&quot;io.trino.plugin.http.TestTable&quot;/&gt;
-      &lt;class name=&quot;io.trino.plugin.http.TestMetadata&quot;/&gt;
       &lt;class name=&quot;io.trino.plugin.http.TestRecordSetProvider&quot;/&gt;
-      &lt;class name=&quot;io.trino.plugin.http.TestConfig&quot;/&gt;
-      &lt;class name=&quot;io.trino.plugin.http.TestClient&quot;/&gt;
       &lt;class name=&quot;io.trino.plugin.http.TestTableHandle&quot;/&gt;
       &lt;class name=&quot;io.trino.plugin.http.TestSplit&quot;/&gt;
+      &lt;class name=&quot;io.trino.plugin.http.TestMetadata&quot;/&gt;
+      &lt;class name=&quot;io.trino.plugin.http.TestRecordSet&quot;/&gt;
+      &lt;class name=&quot;io.trino.plugin.http.TestTable&quot;/&gt;
+      &lt;class name=&quot;io.trino.plugin.http.TestClient&quot;/&gt;
+      &lt;class name=&quot;io.trino.plugin.http.TestConfig&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Surefire test --&gt;
 &lt;/suite&gt; &lt;!-- Surefire suite --&gt;
@@ -523,35 +523,35 @@ data.addRows(23);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'testMetadata')
 data.setCell(0, 2, 'io.trino.plugin.http.TestClient')
-data.setCell(0, 3, 188);
+data.setCell(0, 3, 184);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'testJsonRoundTrip')
 data.setCell(1, 2, 'io.trino.plugin.http.TestColumnHandle')
-data.setCell(1, 3, 179);
+data.setCell(1, 3, 174);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'testExplicitPropertyMappings')
 data.setCell(2, 2, 'io.trino.plugin.http.TestConfig')
-data.setCell(2, 3, 138);
+data.setCell(2, 3, 137);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'testDefaults')
 data.setCell(3, 2, 'io.trino.plugin.http.TestConfig')
 data.setCell(3, 3, 105);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'testCursorMixedOrder')
+data.setCell(4, 1, 'testCursorSimple')
 data.setCell(4, 2, 'io.trino.plugin.http.TestRecordSet')
 data.setCell(4, 3, 51);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'testCursorSimple')
+data.setCell(5, 1, 'testCursorMixedOrder')
 data.setCell(5, 2, 'io.trino.plugin.http.TestRecordSet')
 data.setCell(5, 3, 51);
 data.setCell(6, 0, 6)
 data.setCell(6, 1, 'getColumnMetadata')
 data.setCell(6, 2, 'io.trino.plugin.http.TestMetadata')
-data.setCell(6, 3, 44);
+data.setCell(6, 3, 45);
 data.setCell(7, 0, 7)
 data.setCell(7, 1, 'testCreateTable')
 data.setCell(7, 2, 'io.trino.plugin.http.TestMetadata')
-data.setCell(7, 3, 25);
+data.setCell(7, 3, 26);
 data.setCell(8, 0, 8)
 data.setCell(8, 1, 'testRoundTrip')
 data.setCell(8, 2, 'io.trino.plugin.http.TestTable')
@@ -559,64 +559,64 @@ data.setCell(8, 3, 8);
 data.setCell(9, 0, 9)
 data.setCell(9, 1, 'testEquivalence')
 data.setCell(9, 2, 'io.trino.plugin.http.TestColumnHandle')
-data.setCell(9, 3, 5);
+data.setCell(9, 3, 6);
 data.setCell(10, 0, 10)
 data.setCell(10, 1, 'testGetRecordSet')
 data.setCell(10, 2, 'io.trino.plugin.http.TestRecordSetProvider')
-data.setCell(10, 3, 4);
+data.setCell(10, 3, 5);
 data.setCell(11, 0, 11)
-data.setCell(11, 1, 'testGetColumnHandles')
+data.setCell(11, 1, 'getTableMetadata')
 data.setCell(11, 2, 'io.trino.plugin.http.TestMetadata')
-data.setCell(11, 3, 3);
+data.setCell(11, 3, 2);
 data.setCell(12, 0, 12)
-data.setCell(12, 1, 'getTableMetadata')
+data.setCell(12, 1, 'testGetColumnHandles')
 data.setCell(12, 2, 'io.trino.plugin.http.TestMetadata')
 data.setCell(12, 3, 2);
 data.setCell(13, 0, 13)
-data.setCell(13, 1, 'testJsonRoundTrip')
-data.setCell(13, 2, 'io.trino.plugin.http.TestTableHandle')
-data.setCell(13, 3, 2);
+data.setCell(13, 1, 'testListSchemaNames')
+data.setCell(13, 2, 'io.trino.plugin.http.TestMetadata')
+data.setCell(13, 3, 1);
 data.setCell(14, 0, 14)
-data.setCell(14, 1, 'testColumnMetadata')
-data.setCell(14, 2, 'io.trino.plugin.http.TestTable')
+data.setCell(14, 1, 'testGetTableHandle')
+data.setCell(14, 2, 'io.trino.plugin.http.TestMetadata')
 data.setCell(14, 3, 1);
 data.setCell(15, 0, 15)
-data.setCell(15, 1, 'testAddresses')
-data.setCell(15, 2, 'io.trino.plugin.http.TestSplit')
+data.setCell(15, 1, 'testGetColumnTypes')
+data.setCell(15, 2, 'io.trino.plugin.http.TestRecordSet')
 data.setCell(15, 3, 1);
 data.setCell(16, 0, 16)
-data.setCell(16, 1, 'testGetTableHandle')
-data.setCell(16, 2, 'io.trino.plugin.http.TestMetadata')
+data.setCell(16, 1, 'testEquivalence')
+data.setCell(16, 2, 'io.trino.plugin.http.TestTableHandle')
 data.setCell(16, 3, 1);
 data.setCell(17, 0, 17)
-data.setCell(17, 1, 'testListSchemaNames')
+data.setCell(17, 1, 'testListTables')
 data.setCell(17, 2, 'io.trino.plugin.http.TestMetadata')
 data.setCell(17, 3, 1);
 data.setCell(18, 0, 18)
 data.setCell(18, 1, 'testJsonRoundTrip')
-data.setCell(18, 2, 'io.trino.plugin.http.TestSplit')
+data.setCell(18, 2, 'io.trino.plugin.http.TestTableHandle')
 data.setCell(18, 3, 1);
 data.setCell(19, 0, 19)
-data.setCell(19, 1, 'testListTables')
-data.setCell(19, 2, 'io.trino.plugin.http.TestMetadata')
+data.setCell(19, 1, 'testJsonRoundTrip')
+data.setCell(19, 2, 'io.trino.plugin.http.TestSplit')
 data.setCell(19, 3, 1);
 data.setCell(20, 0, 20)
-data.setCell(20, 1, 'testEquivalence')
-data.setCell(20, 2, 'io.trino.plugin.http.TestTableHandle')
+data.setCell(20, 1, 'testAddresses')
+data.setCell(20, 2, 'io.trino.plugin.http.TestSplit')
 data.setCell(20, 3, 0);
 data.setCell(21, 0, 21)
 data.setCell(21, 1, 'testDropTableTable')
 data.setCell(21, 2, 'io.trino.plugin.http.TestMetadata')
 data.setCell(21, 3, 0);
 data.setCell(22, 0, 22)
-data.setCell(22, 1, 'testGetColumnTypes')
-data.setCell(22, 2, 'io.trino.plugin.http.TestRecordSet')
+data.setCell(22, 1, 'testColumnMetadata')
+data.setCell(22, 2, 'io.trino.plugin.http.TestTable')
 data.setCell(22, 3, 0);
 window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 811 ms</span>
+              <span class="suite-total-time">Total running time: 803 ms</span>
               <div id="times-div-Surefire_suite">
               </div> <!-- times-div-Surefire_suite -->
             </div> <!-- times-div -->
@@ -666,161 +666,161 @@ return data;
               <div class="chronological-class-name">io.trino.plugin.http.TestConfig</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">testDefaults</span>
-                <span class="method-start">186 ms</span>
+                <span class="method-start">180 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testExplicitPropertyMappings</span>
-                <span class="method-start">188 ms</span>
+                <span class="method-start">184 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">io.trino.plugin.http.TestMetadata</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">292 ms</span>
+                <span class="method-start">285 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">getColumnMetadata</span>
-                <span class="method-start">294 ms</span>
+                <span class="method-start">287 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">io.trino.plugin.http.TestRecordSet</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">326 ms</span>
+                <span class="method-start">322 ms</span>
               </div> <!-- configuration-class before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">io.trino.plugin.http.TestMetadata</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">338 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">getTableMetadata</span>
-                <span class="method-start">339 ms</span>
+                <span class="method-start">332 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">341 ms</span>
+                <span class="method-start">332 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">334 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testCreateTable</span>
-                <span class="method-start">341 ms</span>
+                <span class="method-start">334 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">366 ms</span>
+                <span class="method-start">360 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">366 ms</span>
+                <span class="method-start">361 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testDropTableTable</span>
-                <span class="method-start">366 ms</span>
+                <span class="method-start">361 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testGetColumnHandles</span>
-                <span class="method-start">366 ms</span>
+                <span class="method-start">361 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">369 ms</span>
+                <span class="method-start">363 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testGetTableHandle</span>
-                <span class="method-start">369 ms</span>
+                <span class="method-start">363 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">370 ms</span>
+                <span class="method-start">364 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testListSchemaNames</span>
-                <span class="method-start">370 ms</span>
+                <span class="method-start">365 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">371 ms</span>
+                <span class="method-start">366 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testListTables</span>
-                <span class="method-start">371 ms</span>
+                <span class="method-start">366 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">io.trino.plugin.http.TestRecordSet</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">testCursorMixedOrder</span>
-                <span class="method-start">596 ms</span>
+                <span class="method-start">586 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testCursorSimple</span>
-                <span class="method-start">596 ms</span>
+                <span class="method-start">586 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">io.trino.plugin.http.TestRecordSetProvider</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">648 ms</span>
+                <span class="method-start">637 ms</span>
               </div> <!-- configuration-class before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">io.trino.plugin.http.TestRecordSet</div> <!-- chronological-class-name -->
-              <div class="configuration-class after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">648 ms</span>
-              </div> <!-- configuration-class after -->
               <div class="test-method">
                 <span class="method-name">testGetColumnTypes</span>
-                <span class="method-start">648 ms</span>
+                <span class="method-start">637 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">638 ms</span>
+              </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">io.trino.plugin.http.TestSplit</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">testAddresses</span>
-                <span class="method-start">657 ms</span>
+                <span class="method-start">649 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testJsonRoundTrip</span>
-                <span class="method-start">658 ms</span>
+                <span class="method-start">650 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">io.trino.plugin.http.TestTable</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">testColumnMetadata</span>
-                <span class="method-start">659 ms</span>
+                <span class="method-start">651 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testRoundTrip</span>
-                <span class="method-start">660 ms</span>
+                <span class="method-start">651 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">io.trino.plugin.http.TestTableHandle</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">testEquivalence</span>
-                <span class="method-start">669 ms</span>
+                <span class="method-start">659 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testJsonRoundTrip</span>
-                <span class="method-start">669 ms</span>
+                <span class="method-start">660 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">io.trino.plugin.http.TestRecordSetProvider</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">testGetRecordSet</span>
-                <span class="method-start">677 ms</span>
+                <span class="method-start">669 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">681 ms</span>
+                <span class="method-start">674 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

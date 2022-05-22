@@ -38,12 +38,12 @@ import static java.util.Objects.requireNonNull;
 public class Metadata
         implements ConnectorMetadata
 {
-    private final Client exampleClient;
+    private final Client client;
 
     @Inject
-    public Metadata(Client exampleClient)
+    public Metadata(Client client)
     {
-        this.exampleClient = requireNonNull(exampleClient, "exampleClient is null");
+        this.client = requireNonNull(client, "client is null");
     }
 
     @Override
@@ -54,7 +54,7 @@ public class Metadata
 
     public List<String> listSchemaNames()
     {
-        return ImmutableList.copyOf(exampleClient.getSchemaNames());
+        return ImmutableList.copyOf(client.getSchemaNames());
     }
 
     @Override
@@ -64,7 +64,7 @@ public class Metadata
             return null;
         }
 
-        Table table = exampleClient.getTable(tableName.getSchemaName(), tableName.getTableName());
+        Table table = client.getTable(tableName.getSchemaName(), tableName.getTableName());
         if (table == null) {
             return null;
         }
@@ -82,11 +82,11 @@ public class Metadata
     public List<SchemaTableName> listTables(ConnectorSession session, Optional<String> optionalSchemaName)
     {
         Set<String> schemaNames = optionalSchemaName.map(ImmutableSet::of)
-                .orElseGet(() -> ImmutableSet.copyOf(exampleClient.getSchemaNames()));
+                .orElseGet(() -> ImmutableSet.copyOf(client.getSchemaNames()));
 
         ImmutableList.Builder<SchemaTableName> builder = ImmutableList.builder();
         for (String schemaName : schemaNames) {
-            for (String tableName : exampleClient.getTableNames(schemaName)) {
+            for (String tableName : client.getTableNames(schemaName)) {
                 builder.add(new SchemaTableName(schemaName, tableName));
             }
         }
@@ -98,7 +98,7 @@ public class Metadata
     {
         TableHandle exampleTableHandle = (TableHandle) tableHandle;
 
-        Table table = exampleClient.getTable(exampleTableHandle.getSchemaName(), exampleTableHandle.getTableName());
+        Table table = client.getTable(exampleTableHandle.getSchemaName(), exampleTableHandle.getTableName());
         if (table == null) {
             throw new TableNotFoundException(exampleTableHandle.toSchemaTableName());
         }
@@ -133,7 +133,7 @@ public class Metadata
             return null;
         }
 
-        Table table = exampleClient.getTable(tableName.getSchemaName(), tableName.getTableName());
+        Table table = client.getTable(tableName.getSchemaName(), tableName.getTableName());
         if (table == null) {
             return null;
         }
